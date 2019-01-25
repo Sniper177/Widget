@@ -1,0 +1,111 @@
+	
+/*---Header---START!----*/
+	*{
+		margin: 0px;
+		padding: 0px;
+		box-sizing: border-box;
+	}
+	#navh{
+		background-color: #2b2828;
+		height: 55px;
+		padding: 10px;
+		padding-left: 2px;
+	}
+	#img{
+		height: 40px;
+		width: 47px;
+		padding-left: 6px;
+		float: left;
+		overflow: hidden;
+	}
+	#title{
+		font-size: 19px;
+		font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+		line-height: 45px;
+		padding-left: 10px;
+		color: white;
+		overflow: hidden;
+	}
+	#arrow{
+		float: right;
+		overflow: hidden;
+		color: #9e9e9e;
+		margin-top: -41px;
+	}
+	.fa{
+		font-size:31px;
+		padding-left: 10px;		
+		cursor: pointer;
+	}
+/*---Header---End!----*/
+
+
+
+
+	.row {
+	  display: flex;
+	  flex-wrap: nowrap;
+	  flex-direction: row;	 
+	}
+
+
+	.column {
+		display: flex;
+	  flex-wrap: nowrap;
+	  flex: 20%;
+	  /* overflow: hidden; */ 
+	}
+
+	.column img {
+	  min-width:455px;
+	  max-height:266px;
+	}
+
+
+	.progress-container {
+	  width: 100%;
+	  height: 5px;
+	  background: #9e9e9e;
+	}
+
+	.progress-bar {
+	  height: 5px;
+	  background: #4caf50;
+	  width: 0%;
+	}
+
+
+
+
+
+
+/*---Footer---START!----*/
+	#navf{
+		background-color: #2b2828;
+		height: 65px;
+		padding: 10px;
+		padding-left: 2px;
+	}
+	#img2{
+		height: 60px;
+		width: 160px;
+		padding-left: 6px;
+		margin-top:-9px; 
+	}
+	#link{
+		float: right;
+		text-decoration: none; 
+		font-family:Avantgarde;
+		font-weight: bold;
+		color: white;
+		line-height: 43px;
+		padding-right: 10px;
+	}
+	#arr{
+		font-size:16px;
+		color: white;
+		padding-left: 15px;
+		float: right;
+	}
+/*---Footer---END!----*/
+
